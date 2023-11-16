@@ -9,6 +9,6 @@ app = Flask(__name__)
 def hello_world(world: str = "world"):
     return Markup("<p>Hello, %s!</p>") % world.title()
 
-@app.route("/dictionary/<string:topic>", methods=['GET'])
+@app.route("/<string:topic>", methods=['GET'])
 def topics(topic: str = None):
     return json.dumps(dictionary.lookup(topic))
