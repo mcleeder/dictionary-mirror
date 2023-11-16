@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 from markupsafe import Markup
 from dictionary import dictionary
 import json
@@ -11,4 +11,5 @@ def hello_world(world: str = "world"):
 
 @app.route("/<string:topic>", methods=['GET'])
 def topics(topic: str = None):
-    return json.dumps(dictionary.lookup(topic))
+    data = dictionary.lookup(topic)
+    return render_template("index.html", word=data)

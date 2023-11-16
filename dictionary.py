@@ -39,3 +39,6 @@ class Dictionary():
         return self._parse_word(raw_data)
     
 dictionary = Dictionary()
+
+foo = dictionary.lookup("barn")
+print(foo)
