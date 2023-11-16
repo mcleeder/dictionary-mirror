@@ -22,13 +22,13 @@ class Dictionary():
                 for li in elements(elem, "div/ol/li"):
                     word_defs.append(element(li, "div/p").text)
                 definitions.append({
-                    "word_type" : word_type,
-                    "word_definitions" : word_defs #[x for x in word_defs if x],
+                    "word_type" : word_type.capitalize().replace(",",""),
+                    "word_definitions" : [w.capitalize() for w in word_defs if w] 
                 })
                 
 
             return {
-                "word" : word,
+                "word" : word.capitalize(),
                 "pronunciation" : pro[1:-1].strip(), # [ bahrn  ]
                 "definitions" : definitions,
             }
