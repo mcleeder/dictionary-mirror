@@ -12,8 +12,8 @@ Simple little scraper of a well known dictionary site.
 ## Results
 
 - Lambda fail.
-    - Lambda wants you to upload your dependencies and run them. lxml needs does some system specific setup on install.
-    - I tried using an EC2 instance of Amazon's Linux distro to compile the dependencies but it didn't work.
+    - Lambda wants you to upload your dependencies and run them. lxml needs does some system specific setup on install which caused problems.
+    - I tried using an EC2 instance of Amazon's Linux distro to compile the dependencies and add them directly into a Layer that way but it didn't work.
     - Ultimately ended up just sending it over to fly.dev
 - I still like xpath for scraping.
     - Not a perfect parser. Plural words for example.
