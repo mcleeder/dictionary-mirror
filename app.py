@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 from markupsafe import Markup
 from dictionary import dictionary
-import json
 
 app = Flask(__name__)
 
