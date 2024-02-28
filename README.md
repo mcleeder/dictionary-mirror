@@ -20,6 +20,9 @@ Simple little scraper of a well known dictionary site.
 
 ## Use
 
+Just add the word you'd like to lookup to the end of the url.
+Not a whole lot of actual practical use for this, but it was fun to make.
+
 https://simple-dictionary.fly.dev/word
 
 - [/mouse](https://simple-dictionary.fly.dev/mouse)
