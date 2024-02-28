@@ -20,10 +20,10 @@ Simple little scraper of a well known dictionary site.
 
 ## Use
 
-https://simple-dictionary.fly.dev/dictionary
+https://simple-dictionary.fly.dev/word
 
-[mouse](https://simple-dictionary.fly.dev/mouse)
+- [/mouse](https://simple-dictionary.fly.dev/mouse)
 
-[house](https://simple-dictionary.fly.dev/house)
+- [/house](https://simple-dictionary.fly.dev/house)
 
-[carton](https://simple-dictionary.fly.dev/carton)
+- [/carton](https://simple-dictionary.fly.dev/carton)
