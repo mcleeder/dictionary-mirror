@@ -6,7 +6,7 @@ Simple little scraper of a well known dictionary site.
 ## Why
 
 - I wanted to try using AWS Lambda
-- I used similar scraping methods but never made note of how the code worked. This was my attempt at doing something similar for myself.
+- I used similar scraping methods in a previous role. This was my attempt at writing something similar for myself.
 
 
 ## Results
