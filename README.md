@@ -20,7 +20,7 @@ Simple little scraper of a well known dictionary site.
 
 ## Use
 
-https://simple-dictionary.fly.dev/<word>
+https://simple-dictionary.fly.dev/__word__
 
 [mouse](https://simple-dictionary.fly.dev/mouse)
 
