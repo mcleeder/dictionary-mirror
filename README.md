@@ -16,7 +16,7 @@ Simple little scraper of a well known dictionary site.
     - I tried using an EC2 instance of Amazon's Linux distro, but I couldn't get it to work.
     - Ultimately ended up just sending it over to fly.io.
 - I still like xpath for scraping.
-    - Not a perfect scraper. There are some html formats that I haven't handled. Plural words
+    - Not a perfect parser. Plural words for example.
 
 ## Use
 
