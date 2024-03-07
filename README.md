@@ -16,7 +16,7 @@ Simple little scraper of a well known dictionary site.
     - I tried using an EC2 instance of Amazon's Linux distro to compile the dependencies and add them directly into a Layer that way but it didn't work.
     - Ultimately ended up just sending it over to fly.dev
 - I still like xpath for scraping.
-    - Not a perfect parser. Plural words for example.
+    - Not a perfect parser. Plural words for example. But the main goal was just to write something to run on Lambda, which it did to... a point.
 
 ## Use
 
